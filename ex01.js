@@ -1,3 +1,6 @@
+document.getElementById('botao').onclick = iniciarJogo;
+function iniciarJogo() {
+
 const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 console.log(numeroAleatorio);
 
@@ -14,3 +17,4 @@ while (n !== numeroAleatorio) {
 }
 
 alert("Parabéns!!!!! Vc acertou, é o número " + numeroAleatorio);
+}

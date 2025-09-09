@@ -1,10 +1,28 @@
 #pai {
-    background-color: blue;
-    color: white;
+    background-color: #89059e;
+    color: #fff;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 16px;
     width: 350px;
-    margin: 50px auto;
+    margin: 60px auto;
     text-align: center;
     font-family: Arial, sans-serif;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+#pai h1 {
+    margin-bottom: 16px;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+#pai p {
+    margin: 12px 0;
+    font-size: 1.1em;
+}
+
+#pai botao {
+    background-color: #ff00f2;
+    font-size: 2em;
+
 }
