@@ -1,7 +1,10 @@
 const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
-let n = parseInt(prompt("Qual é seu chute? "));
+console.log(numeroAleatorio);
 
-while (n != numeroAleatorio) {
+var n
+n = parseInt(prompt("Qual é seu chute? "));
+
+while (n !== numeroAleatorio) {
     if (n < numeroAleatorio) {
         alert("Seu chute é muito baixo");
     } else {
