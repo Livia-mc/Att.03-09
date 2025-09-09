@@ -1,21 +1,13 @@
-  const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
-  console.log(numeroAleatorio);
-verif
-  alert(n)
-while(n!=numeroAleatorio, resposta==true){
+const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+let n = parseInt(prompt("Qual é seu chute? "));
 
-if(n<numeroAleatorio){
-    alert("Seu chute é muito baixo")
-    n=parseInt(prompt("Qual é seu novo chute? "))
-}
-
-else{
-    alert("Seu número é muito alto")
-    n=parseInt(prompt("Qual é seu novo chute? "))
+while (n != numeroAleatorio) {
+    if (n < numeroAleatorio) {
+        alert("Seu chute é muito baixo");
+    } else {
+        alert("Seu número é muito alto");
     }
-
-
+    n = parseInt(prompt("Qual é seu novo chute? "));
 }
-        alert("Parabéns!!!!! Vc acertou, é o número "+numeroAleatorio)
 
-}
+alert("Parabéns!!!!! Vc acertou, é o número " + numeroAleatorio);
